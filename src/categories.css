@@ -1,0 +1,31 @@
+.categories{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.category__item{
+    width: 35%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(17, 42%, 78%);
+    padding: 20px;
+    position: relative;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow:
+  2.7px 2px 3.5px rgba(0, 0, 0, 0.017),
+  6.9px 5px 8.9px rgba(0, 0, 0, 0.03),
+  14px 10.1px 18.3px rgba(0, 0, 0, 0.043),
+  28.8px 20.8px 37.6px rgba(0, 0, 0, 0.059),
+  79px 57px 103px rgba(0, 0, 0, 0.09)
+;
+
+}
+
+.category__image{
+    width: 90%;
+    display: flex;
+}
