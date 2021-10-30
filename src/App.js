@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Banner from './Banner';
 import TodayDeals from './TodayDeals';
-import Categories from './Categories';
+import Categoryapi from './Categoryapi';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <TodayDeals />
-      <Categories />
+      <Categoryapi />
     </div>
   );
 }
